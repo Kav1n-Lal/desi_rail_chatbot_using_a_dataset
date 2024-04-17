@@ -1,5 +1,12 @@
 # 🦙 Llama-2-GGML-CSV-Chatbot 🤖
 
+## Reference
+1. **This project is inspired/referenced from the below specified repository.It was taken from hugging face:**
+   ```bash
+   git clone https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot.git
+   ```
+2. The repository contents were thoroughly studied and modified as required for the **Desi Rail Chatbot Project**
+
 ## Overview
 The **Llama-2-GGML-CSV-Chatbot** is a conversational tool powered by a fine-tuned large language model (LLM) known as *Llama-2 7B*. This chatbot utilizes CSV retrieval capabilities, enabling users to engage in multi-turn interactions based on uploaded CSV data.
 
@@ -7,7 +14,7 @@ The **Llama-2-GGML-CSV-Chatbot** is a conversational tool powered by a fine-tune
 
 ## 🚀 Features
 
-- **CSV Data Interaction:** Allows users to engage in conversations based on uploaded CSV data.
+- **CSV Data Interaction:** Allows users to engage in conversations based on CSV data.
 - **Multi-turn Interaction:** Supports seamless multi-turn interactions for a better conversational experience.
 
 ## Development Specs
@@ -16,10 +23,9 @@ The **Llama-2-GGML-CSV-Chatbot** is a conversational tool powered by a fine-tune
 - Cross-platform compatibility with Linux, macOS, or Windows OS.
 
 ## 🛠️ Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot.git
+1. **Clone This Repository:**
+ ```bash
+   git clone https://github.com/Kav1n-Lal/desi_rail_chatbot_using_a_dataset.git
    ```
 2. **Install Dependencies:**
    ```bash
@@ -57,26 +63,19 @@ Download the Llama 2 model file named `llama-2-7b-chat.ggmlv3.q4_0.bin` from the
 
 ## 🤖 How to Use
 
-- Upon running the application, you'll be presented with a sidebar providing information about the chatbot and an option to upload a CSV file.
-- Upload a CSV file containing the data you want the chatbot to interact with.
+- Upon running the application, you'll be presented with a sidebar providing information about the chatbot and a selectbox to specify the source station i.e where to start the journey from.
+- If you get import pwd error just refresh the streamlit app.
+- Then another selectbox box appears to specify the destination station.
 - Enter your query or prompt in the input field provided.
-- The chatbot will process your query and generate a response based on the uploaded CSV data and the Llama-2-7B-Chat-GGML model.
+- The chatbot will process your query and generate a response based on the railway CSV data and the Llama-2-7B-Chat-GGML model.
+
 
 ## 📖 ChatBot Conversession
 
 ### ⚡Streamlit ver. on [#v2.0.2.dev20240102](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/releases/tag/v2.0.2.dev20240102)
 ![ChatBot Conversession img-1 png](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/assets/109382325/86102dd9-d078-46c5-aa55-dd9fbd7ed2ea)
 
-## 📌 Important Notes
 
-- While robust, this chatbot is not a substitute for professional advice.
-- Ensure the CSV file adheres to the expected format for optimal performance.
 
-## 🤝 Contributing
 
-Contributions and suggestions are welcome! Feel free to fork the repository, make changes, and submit pull requests for improvements or bug fixes.
-
-## 📄 License
-
-This project is licensed under the [MIT License](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/blob/main/LICENSE).
 
