@@ -62,19 +62,20 @@ Download the Llama 2 model file named `llama-2-7b-chat.ggmlv3.q4_0.bin` from the
 - **Hardware:** Operates on CPU; no GPU required.
 
 ## 🤖 How to Use
-
+- Copy the cloned repository path and at the end add "\\chat.csv" on line 41 in app.py before running the code.
+- Eg.uploaded_file='C:\\Users\\Kavin\\Desktop\\desi_rail_chatbot\\chat.csv'
 - Upon running the application, you'll be presented with a sidebar providing information about the chatbot and a selectbox to specify the source station i.e where to start the journey from.
 - If you get import pwd error just refresh the streamlit app.
 - Then another selectbox box appears to specify the destination station.
+- Then click on 'Chat' button.
 - Enter your query or prompt in the input field provided.
 - The chatbot will process your query and generate a response based on the railway CSV data and the Llama-2-7B-Chat-GGML model.
 
 
-## 📖 ChatBot Conversession
+## 📖 ChatBot Conversation
 
 ### ⚡Streamlit ver. on [#v2.0.2.dev20240102](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/releases/tag/v2.0.2.dev20240102)
-![ChatBot Conversession img-1 png](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/assets/109382325/86102dd9-d078-46c5-aa55-dd9fbd7ed2ea)
-
+![Screenshot (1)](https://github.com/Kav1n-Lal/desi_rail_chatbot_using_a_dataset/assets/116146011/dbd36ea3-32b5-4ab7-b68b-0250c2d6fb88)
 
 
 
